@@ -1,0 +1,12 @@
+fastapi==0.95.2          # Stable release for building APIs
+uvicorn==0.23.0           # ASGI server for running FastAPI
+PyPDF2==3.0.0             # For extracting text from PDFs
+pytesseract==0.3.10       # For OCR (Optical Character Recognition)
+pillow==10.0.0            # Image processing required by pytesseract
+nltk==3.8.1               # Natural Language Toolkit for text preprocessing
+langchain==0.0.310        # For interacting with LLMs
+openai==0.28.1            # Official OpenAI API client
+weaviate-client==3.11.0           # Vector database for storing embeddings
+python-multipart==0.0.6   # For handling file uploads in FastAPI
+pdf2image==1.16.3
+ # Converts PDFs to images for OCR
